@@ -1,11 +1,15 @@
 <template>
   <div class="hello">
-    <audio id="musicfx" loop="loop" autoplay="autoplay">
-      <source src="../assets/summer.mp3" type="audio/mpeg">
+    <audio id="musicfx"
+           loop="loop"
+           autoplay="autoplay">
+      <source src="../assets/summer.mp3"
+              type="audio/mpeg">
     </audio>
-    <img src="../assets/map.png" alt="">
+    <img src="../assets/map.png"
+         alt="">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h2>Essential Link</h2>
     <div class="myimg">
 
     </div>
@@ -25,7 +29,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 ul {
@@ -39,7 +44,7 @@ li {
 a {
   color: #42b983;
 }
-.myimg{
+.myimg {
   width: 200px;
   height: 200px;
   background: url(../assets/map.png) no-repeat;
